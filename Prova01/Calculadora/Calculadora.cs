@@ -19,33 +19,33 @@ namespace Calculadora
 
         private void rbadicao_CheckedChanged(object sender, EventArgs e)
         {
-                int num1 = int.Parse(txtnum1.Text);
-                int num2 = int.Parse(txtnum2.Text);
-                int adicao = (num1 + num2);
-                txtresult.Text = adicao.ToString();    
+            double num1 = double.Parse(txtnum1.Text);
+            double num2 = double.Parse(txtnum2.Text);
+            double adicao = (num1 + num2);
+            txtresult.Text = adicao.ToString();
         }
 
         private void rbsub_CheckedChanged(object sender, EventArgs e)
         {
-            int num1 = int.Parse(txtnum1.Text);
-            int num2 = int.Parse(txtnum2.Text);
-            int sub = (num1 - num2);
+            double num1 = double.Parse(txtnum1.Text);
+            double num2 = double.Parse(txtnum2.Text);
+            double sub = (num1 - num2);
             txtresult.Text = sub.ToString();
         }
 
         private void rbmult_CheckedChanged(object sender, EventArgs e)
         {
-            int num1 = int.Parse(txtnum1.Text);
-            int num2 = int.Parse(txtnum2.Text);
-            int mult = (num1 * num2);
+            double num1 = double.Parse(txtnum1.Text);
+            double num2 = double.Parse(txtnum2.Text);
+            double mult = (num1 * num2);
             txtresult.Text = mult.ToString();
         }
 
         private void rbdiv_CheckedChanged(object sender, EventArgs e)
         {
-            int num1 = int.Parse(txtnum1.Text);
-            int num2 = int.Parse(txtnum2.Text);
-            int div = (num1 / num2);
+            double num1 = double.Parse(txtnum1.Text);
+            double num2 = double.Parse(txtnum2.Text);
+            double div = (num1 / num2);
             txtresult.Text = div.ToString();
         }
 

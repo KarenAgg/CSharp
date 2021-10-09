@@ -66,7 +66,9 @@ namespace Calculadora
             // 
             // txtresult
             // 
+            this.txtresult.Enabled = false;
             this.txtresult.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtresult.HideSelection = false;
             this.txtresult.Location = new System.Drawing.Point(29, 364);
             this.txtresult.Name = "txtresult";
             this.txtresult.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
